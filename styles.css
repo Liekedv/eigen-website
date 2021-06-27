@@ -1,0 +1,142 @@
+footer {
+  position: absolute;
+  width: 450px;
+  height: 21px;
+  text-align: center;
+}
+p {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  padding: 0px 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Roboto;
+  font-size: 22px;
+  line-height: 23px;
+  color: #000000;
+  padding: 0px 20px;
+}
+
+hr {
+  margin: 25px;
+}
+
+.travel-list li {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.img {
+  max-width: 50%;
+  height: 200px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.img-country {
+  min-width: 100%;
+  height: 400px;
+}
+.img-discover {
+  min-width: 100%;
+  max-height: 400px;
+}
+
+.navigation-links li {
+  display: inline;
+  margin: 10px;
+}
+
+.navigation-links {
+  width: 350px;
+  height: 21px;
+  text-align: center;
+}
+.navigation-links a {
+  font-family: Quantico;
+  color: white;
+}
+
+.werelddeel {
+  font-weight: 600;
+}
+.button {
+  border: 3px solid #c4c4c4;
+  color: steelblue;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.menu {
+  background-color: steelblue;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* formulier */
+.onefield {
+  width: 85%;
+}
+.twofields {
+  width: 20%;
+}
+.submit-button {
+  position: absolute;
+  margin: 0 auto;
+  width: 40%;
+  left: 30%;
+  margin-left: -30px;
+  background-color: #ff0000;
+}
+form {
+  margin-bottom: 75px;
+}
+/* einde formulier */
+
+@media (min-width: 1024px) {
+  footer {
+    position: absolute;
+    width: 1800px;
+    height: 21px;
+    text-align: center;
+  }
+
+  .navigation-links {
+    width: 1500px;
+    height: 21px;
+    text-align: center;
+  }
+
+  .img {
+    max-width: 25%;
+    height: 300px;
+    float: left;
+    margin-bottom: 10px;
+  }
+  /* formulier */
+  .onefield {
+    width: 95%;
+  }
+  .twofields {
+    width: 41%;
+  }
+  .submit-button {
+    position: absolute;
+    margin: 0 auto;
+    width: 40%;
+    left: 30%;
+    margin-left: -30px;
+    background-color: #ff0000;
+  }
+  /* einde formulier */
+}
